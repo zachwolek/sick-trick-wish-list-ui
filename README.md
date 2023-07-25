@@ -48,8 +48,10 @@ Get all existing tricks from the API on page load and display them on the DOM.
 Create a controlled Form component to create a trick (look into the API documentation to see what pieces of information are expected, and what datatypes it wants each piece to be). As a user types into the input fields, the form component's state should change.  When the user clicks the `SEND IT` button, the application should update the App's state.  The new trick should display with all of the existing tricks. 
 
 Notes:  
-- The `Stance` select input should contain options 'Regular' and 'Switch'
-- The `Obstacle` select input should contain options 'Flatground', 'Ledge', 'Rail', 'Stairs', and 'Pool'
+- The `Stance` input should be a select dropdown and should contain options 'Regular' and 'Switch'
+- The `Name of Trick` input should be a text input
+- The `Obstacle` input should be a select dropdown and should contain options 'Flatground', 'Ledge', 'Rail', 'Stairs', and 'Pool'
+- The `Link to Tutorial` input should be a text input
 - You do not need to worry about error handling!  
 - Do not worry about making the POST request to the database yet.
 
