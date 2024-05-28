@@ -2,7 +2,6 @@ import './Tricks.css'
 import { Card } from '../Card/Card'
 
 export function Tricks({tricks}){
-    console.log(tricks)
     const trickCards = tricks.map(trick => {
        return <Card 
             stance={trick.stance}

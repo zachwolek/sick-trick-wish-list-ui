@@ -1,7 +1,6 @@
 import './Card.css'
 
 export function Card({stance, name, obstacle, tutorial}){
-    console.log("STANCE:", stance)
     return(
         <div className='card'>
             <p>{stance}</p>
