@@ -1,15 +1,20 @@
 import './Form.css'
 import { useState } from 'react'
-import reactDOM from 'react-dom'
 
 export function Form(){
     return (
         <form>
-            <input></input>
-            <input></input>
+            <select>
+                <option value="regular">Regular</option>
+                <option value="switch">Switch</option>
+            </select>
+            <select>
+                <option value="flatground">Flatground</option>
+                <option value="ledge">Ledge</option>
+                <option value="rail">Rail</option>
+                <option value="stairs">Stairs</option>
+                <option value="pool">Pool</option>
+            </select>
         </form>
     )
 }
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Form />);
