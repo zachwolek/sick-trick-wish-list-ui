@@ -3,9 +3,8 @@ import { Card } from '../Card/Card'
 
 export function Tricks({tricks}){
     console.log(tricks)
-    console.log(tricks[0])
     const trickCards = tricks.map(trick => {
-        <Card 
+       return <Card 
             stance={trick.stance}
             name={trick.name}
             obstacle={trick.obstacle}
@@ -13,7 +12,7 @@ export function Tricks({tricks}){
         />
     })
     return(
-        <div classname='tricks-container'>
+        <div className='tricks-container'>
             {trickCards}
         </div>
     )
